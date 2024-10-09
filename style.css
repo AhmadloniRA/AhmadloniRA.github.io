@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+/* Container */
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Left Side (Profile, Contact Info, Skills) */
+.left-side {
+  background-color: #045682;
+  color: white;
+  padding: 30px;
+  width: 35%;
+}
+
+.profile-pic {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.contact-info, .skills {
+  margin-bottom: 30px;
+}
+
+.contact-info h2, .skills h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-info p, .skills ul {
+  font-size: 1rem;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills ul li {
+  padding: 5px 0;
+}
+
+/* Right Side (Name, Summary, Experience, Education) */
+.right-side {
+  padding: 30px;
+  width: 65%;
+}
+
+.right-side h1 {
+  font-size: 2.5rem;
+  color:  #045682;
+  margin-bottom: 10px;
+}
+
+.right-side h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.right-side p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.experience, .education {
+  margin-bottom: 20px;
+}
+
+.experience h2, .education h2 {
+  font-size: 1.8rem;
+  color:  #045682;
+  border-bottom: 2px solid  #045682;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.experience p, .education p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.experience strong, .education strong {
+  font-size: 1.1rem;
+}
+
+/* Footer Style */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:  #045682;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
